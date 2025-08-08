@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Voice Agent</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Voice Agent</h1>
+        <div class="status" id="status">Ready</div>
+        
+        <div class="controls">
+            <button id="startBtn" class="btn primary">Start Listening</button>
+            <button id="stopBtn" class="btn secondary" disabled>Stop</button>
+        </div>
+        
+        <div class="conversation" id="conversation">
+            <div class="message system">
+                <span class="label">System:</span>
+                <span class="text">Click "Start Listening" to begin conversation</span>
+            </div>
+        </div>
+        
+        <div class="audio-visualizer">
+            <canvas id="visualizer" width="400" height="100"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

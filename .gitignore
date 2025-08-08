@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.log
+backend/temp_audio.wav
+backend/input_temp.webm
+backend/output_temp.wav
+.DS_Store
+Thumbs.db
